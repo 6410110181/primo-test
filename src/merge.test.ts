@@ -15,7 +15,7 @@ describe('merge function', () => {
 
     it('จัดการกับกรณีที่หนึ่งในอาร์เรย์ว่าง', () => {
         const collection_1 = [1, 3, 5];
-        const collection_2: number[] = []; // กำหนดประเภทที่ชัดเจน
+        const collection_2: number[] = []; 
         const collection_3 = [7, 6, 5, 4];
 
         const result = merge(collection_1, collection_2, collection_3);
@@ -24,9 +24,9 @@ describe('merge function', () => {
     });
 
     it('จัดการกับกรณีที่อาร์เรย์ทั้งหมดว่าง', () => {
-        const collection_1: number[] = []; // กำหนดประเภทที่ชัดเจน
-        const collection_2: number[] = []; // กำหนดประเภทที่ชัดเจน
-        const collection_3: number[] = []; // กำหนดประเภทที่ชัดเจน
+        const collection_1: number[] = []; 
+        const collection_2: number[] = []; 
+        const collection_3: number[] = []; 
 
         const result = merge(collection_1, collection_2, collection_3);
 
